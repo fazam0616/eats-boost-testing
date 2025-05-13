@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "1043345624805",
+    "project_id": "eats-boost-my0f61",
+    "storage_bucket": "eats-boost-my0f61.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043345624805:android:b328127977000adc868e0c",
+        "android_client_info": {
+          "package_name": "com.mycompany.eatsboost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043345624805-1i8of6ddmq115760jncfbjn2q6lr5ll1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.eatsboost",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1043345624805-iqc1970ck5hbdjc0hdtqlbrf9nm6ipdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.eatsboost",
+            "certificate_hash": "5bb7a87817a6783eef05b3246cae449bf0f72367"
+          }
+        },
+        {
+          "client_id": "1043345624805-gspqsglfr55ksvu0lah370mse3ecvg4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPc4Gjc8zWE4T-4-QavHQFth5J_KNtLl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043345624805-gspqsglfr55ksvu0lah370mse3ecvg4f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1043345624805-2h28kejlqc811ag17hoebqd27d4h7t64.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.eatsboost"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043345624805:android:f7a0be1d0e68ad2b868e0c",
+        "android_client_info": {
+          "package_name": "com.mycompany.eatsboostadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043345624805-3v291les5v5hm39i408tbo7hp9u3nfug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.eatsboostadmin",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1043345624805-44r53dl43aisl5ch2arics6qbr1iia7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.eatsboostadmin",
+            "certificate_hash": "ac3f54d67998039f556b6dce8302c28a4817f861"
+          }
+        },
+        {
+          "client_id": "1043345624805-gspqsglfr55ksvu0lah370mse3ecvg4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPc4Gjc8zWE4T-4-QavHQFth5J_KNtLl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043345624805-gspqsglfr55ksvu0lah370mse3ecvg4f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1043345624805-2h28kejlqc811ag17hoebqd27d4h7t64.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.eatsboost"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -59,15 +59,6 @@ class _WelcomePageWidgetState extends State<WelcomePageWidget> {
                 'assets/images/Screenshot_2025-01-31_at_11.21.00_AM.png',
               ).image,
             ),
-            gradient: LinearGradient(
-              colors: [
-                FlutterFlowTheme.of(context).primary,
-                FlutterFlowTheme.of(context).tertiary
-              ],
-              stops: [0.0, 1.0],
-              begin: AlignmentDirectional(0.87, -1.0),
-              end: AlignmentDirectional(-0.87, 1.0),
-            ),
           ),
           alignment: AlignmentDirectional(0.0, -1.0),
           child: Padding(

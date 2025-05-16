@@ -58,15 +58,6 @@ class _LaunchWidgetState extends State<LaunchWidget> {
                 'assets/images/background-798289_1280.webp',
               ).image,
             ),
-            gradient: LinearGradient(
-              colors: [
-                FlutterFlowTheme.of(context).primary,
-                FlutterFlowTheme.of(context).tertiary
-              ],
-              stops: [0.0, 1.0],
-              begin: AlignmentDirectional(0.87, -1.0),
-              end: AlignmentDirectional(-0.87, 1.0),
-            ),
           ),
           alignment: AlignmentDirectional(0.0, -1.0),
           child: Align(

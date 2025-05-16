@@ -4,7 +4,7 @@ plugins {
    id "dev.flutter.flutter-gradle-plugin"
    id "com.google.gms.google-services"  // Google Services plugin
 
-   
+
 }
 
 def localProperties = new Properties()
@@ -34,7 +34,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace "com.mycompany.eatsboost"
     compileSdkVersion 34
-    
+
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

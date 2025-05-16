@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:eats_boost_mobile_app/onboarding/introduction/intro_page_widget.dart';
+import 'package:eats_boost_mobile_app/onboarding/introduction/mission_statement/mission_statement_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
@@ -339,6 +341,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: TestWidget.routeName,
           path: TestWidget.routePath,
           builder: (context, params) => TestWidget(),
+        ),
+        FFRoute(
+          name: IntroPageWidget.routeName,
+          path: IntroPageWidget.routePath,
+          builder: (context, params) => IntroPageWidget(),
+        ),
+        FFRoute(
+          name: MissionStatementWidget.routeName,
+          path: MissionStatementWidget.routePath,
+          builder: (context, params) => MissionStatementWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

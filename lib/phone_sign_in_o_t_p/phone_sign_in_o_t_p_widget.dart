@@ -1,3 +1,5 @@
+import 'package:eats_boost_mobile_app/onboarding/introduction/intro_page_widget.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/components/header2/header2_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -274,7 +276,7 @@ class _PhoneSignInOTPWidgetState extends State<PhoneSignInOTPWidget> {
                                   (await getPermissionStatus(
                                       locationPermission))) {
                                 context.pushNamedAuth(
-                                    MyOffersWidget.routeName, context.mounted);
+                                    IntroPageWidget.routeName, context.mounted);
                               } else if (currentUserDisplayName == null ||
                                   currentUserDisplayName == '') {
                                 context.pushNamedAuth(
